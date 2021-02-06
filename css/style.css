@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: auto 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background: hsl(218, 28%, 15%);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo-img {
+  max-width: 150px;
+  height: auto;
+}
+.nav-list {
+  display: flex;
+  padding-top: 1.2%;
+  padding-right: 5%;
+}
+.nav-item {
+  margin-left: 40px;
+  cursor: pointer;
+}
+.intro {
+  margin: auto 0;
+  text-align: center;
+  padding-top: 2%;
+  background: hsl(218, 28%, 15%);
+}
+.intro-content {
+  background: url("/images/bg-curvy-desktop.svg");
+  background-position: -10px 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10%;
+}
+.intro-heading {
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+}
+.intro-subheading {
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 2%;
+}
+.intro-button {
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 2%;
+  border: none;
+  cursor: pointer;
+}
+.grid-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 12.5%;
+}
+.grid-sub-section {
+  text-align: center;
+  margin: 10%;
+}
+.grid-section-icon {
+  width: 100px;
+  margin-bottom: 3%;
+}
+.sec-icon {
+  width: 90px;
+}
+.grid-subheading {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 5px;
+}
+.productive-section {
+  margin: auto 0;
+  display: flex;
+  margin: 5% 8%;
+}
+.stay-productive-img {
+  max-width: 50%;
+}
+.productive-section-right {
+  margin-left: 8%;
+  width: 50%;
+}
+.productive-section-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.productive-section-right p {
+  font-size: 17px;
+  font-family: "Open Sans" sans-serif;
+  text-align: left;
+}
+.productive-section-right a {
+  font-size: 17px;
+  font-family: "Open Sans" sans-serif;
+  font-weight: 400;
+  color: hsl(176, 68%, 64%);
+  width: fit-content;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  cursor: pointer;
+}
+.bg-quotes {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 4.5%;
+  z-index: 1;
+}
+.card-container {
+  display: flex;
+  margin: 8% 8%;
+  padding-bottom: 16%;
+}
+.card {
+  box-shadow: 5px 5px 20px hsl(217, 28%, 15%);
+  margin-top: 50px;
+  background-color: hsl(219, 30%, 18%);
+  margin-left: 3%;
+  padding: 3% 3%;
+  z-index: 2;
+}
+.card P {
+  text-align: left;
+}
+.profile {
+  display: flex;
+  margin-top: 8%;
+  font-size: 10px;
+}
+
+.profile-img {
+  max-width: 27px;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+.access {
+  padding: 5% 5%;
+  box-shadow: 5px 5px 20px hsl(217, 28%, 13%);
+  height: auto;
+  width: 60%;
+  margin: -10% 21%;
+  background-color: hsl(218, 28%, 14%);
+  position: absolute;
+}
+.access h1,
+p {
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+}
+.email {
+  display: flex;
+}
+.email-button {
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  font-weight: 400;
+  width: 155px;
+  padding: 9% 0%;
+  border: none;
+  cursor: pointer;
+}
+.access input {
+  border-radius: 30px;
+  padding: 2.5% 3%;
+  width: 500px;
+  outline: none;
+  margin-right: 4%;
+}
+.info {
+  margin: auto 0;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  padding-right: 6%;
+  padding-left: 6%;
+  background: hsl(216, 53%, 9%);
+}
+.info-content a {
+  color: white;
+}
+.info-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.info-content li {
+  margin-top: 15%;
+}
+.info-content img {
+  margin-right: 15px;
+}
+.social-media {
+  display: flex;
+}
+.social-media-icon {
+  color: white;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: white 1px solid;
+  padding: 1% 6%;
+  font-size: 35px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .illustration-img {
+    max-width: 70%;
+  }
+  .intro-heading {
+    font-size: 35px;
+  }
+  .intro-Subheading {
+    font-size: 12px;
+  }
+  .productive-section-heading {
+    font-size: 30px;
+    width: 100%;
+  }
+  .productive-section-right p {
+    font-size: 12px;
+  }
+  .info {
+    padding-top: 30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo-img {
+    max-width: 80px;
+  }
+  .nav-item {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .illustration-img {
+    max-width: 83%;
+  }
+  .intro-content {
+    background-image: url("/images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -135px 5px;
+  }
+  .intro-heading {
+    font-size: 23px;
+    width: 100%;
+  }
+  .intro-subheading {
+    font-size: 11px;
+    width: 100%;
+    padding: 2% 3%;
+  }
+  .grid-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-sub-section {
+    width: 100%;
+    font-size: 9px;
+    margin-left: 2%;
+  }
+  .grid-section-icon {
+    width: 70px;
+  }
+  .sec-icon {
+    width: 70px;
+  }
+  .productive-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto 0;
+  }
+  .productive-section-right {
+    width: 100%;
+  }
+  .stay-productive-img {
+    max-width: 80%;
+    margin: 6% auto;
+  }
+  .productive-section-heading {
+    font-size: 17px;
+    width: 100%;
+  }
+  .productive-section-right p {
+    width: 100%;
+    font-size: 13spx;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40%;
+  }
+  .card p {
+    padding-top: 7%;
+  }
+  .access {
+    width: 90%;
+    margin: -30% 5%;
+  }
+  .access-heading {
+    width: 100%;
+    font-size: 20px;
+  }
+  .access-sub-heading {
+    font-size: 13px;
+  }
+  .info {
+    padding-top: 70%;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    margin: 0 aut0;
+  }
+  .email input {
+    width: 100%;
+    padding: 7% 3%;
+  }
+  .email-button {
+    padding: 7% 3%;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .info-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-media {
+    margin: 10% auto;
+  }
+  .social-media-icon {
+    font-size: 30px;
+  }
+}
